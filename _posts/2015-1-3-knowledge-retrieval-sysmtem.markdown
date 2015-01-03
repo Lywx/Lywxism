@@ -107,7 +107,7 @@ and notion of your personal best practice and retrieval strategies.
 According to my personal experiment, it did have a positive effect on my work
 and life. So keep this thought in your brain:
 
-> True knowledge is a retrievable runtime execution of action and thought.
+> True knowledge is a retrievable runtime execution of actions and thought.
 
 [Sprache]: https://github.com/sprache/Sprache
 
