@@ -5,7 +5,7 @@ name: "Wuxiang Lin"
 markdown: rdiscount
 
 author: "Wuxiang Lin"
-atom-baseurl: "http://lywx.github.io/lywx"
+atom-baseurl: "http://lywx.github.io"
 disqus: "gopherwood"
 
 navigations:
