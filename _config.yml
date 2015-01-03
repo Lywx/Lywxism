@@ -6,7 +6,7 @@ markdown: rdiscount
 
 author: "Wuxiang Lin"
 atom-baseurl: "http://lywx.github.io"
-disqus: "gopherwood"
+disqus: "lywx"
 
 navigations:
   - title: Archive

@@ -90,7 +90,6 @@ following:
 [Everyday AM 7:0:0]
 
     COMMAND: ...
-
     MUSIC:   ...
 
 {% endhighlight %}
