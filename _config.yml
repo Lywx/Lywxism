@@ -17,7 +17,7 @@ navigations:
     href: /tags.html
   - title: Bio
     class: fa fa-user
-    href: /about.html
+    href: /bio.html
   - title: Blogroll
     class: fa fa-link
     href: /links.html

@@ -1,6 +1,7 @@
 ---
 title: Construct A Knowledge Retrieval System With Markdown and Parse It with Sprache
 layout: post
+guid: urn:uuid:f1f1a21b-a50b-424c-9554-6e6382b6122a
 tags:
 - Knowledge Management
 - Domain Specific Language
@@ -90,6 +91,7 @@ following:
 [Everyday AM 7:0:0]
 
     COMMAND: ...
+
     MUSIC:   ...
 
 {% endhighlight %}
@@ -106,7 +108,7 @@ and notion of your personal best practice and retrieval strategies.
 According to my personal experiment, it did have a positive effect on my work
 and life. So keep this thought in your brain:
 
-> True knowledge is a retrievable runtime execution of actions and thought.
+> True knowledge is retrievable runtime execution of actions and thought.
 
 [Sprache]: https://github.com/sprache/Sprache
 
