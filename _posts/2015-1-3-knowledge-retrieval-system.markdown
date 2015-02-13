@@ -75,9 +75,10 @@ hours, 60 minutes and 0 seconds.
 Of course, this information is trivial for an experienced developer. But can you
 recall it when you are upset on browsing your illy constructed code?
 
-These knowledge is linked with a bigger concept call mode. A mode consists of
-many related knowledge and it can be manually selected in runtime in cogntive
-activities.
+This piece of knowledge is linked with a bigger knowledge in a tree like manner.
+Gradually, a modular knowledge framework is constructed with tiny piece of
+information. A module of knowledge consists of many related knowledge and it can
+be manually selected in runtime in cogntive activities.
 
 <br> <br>
 
