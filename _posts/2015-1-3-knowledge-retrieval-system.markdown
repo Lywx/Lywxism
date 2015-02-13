@@ -76,9 +76,9 @@ Of course, this information is trivial for an experienced developer. But can you
 recall it when you are upset on browsing your illy constructed code?
 
 This piece of knowledge is linked with a bigger knowledge in a tree like manner.
-Gradually, a modular knowledge framework is constructed with tiny piece of
-information. A module of knowledge consists of many related knowledge and it can
-be manually selected in runtime in cogntive activities.
+Gradually, a modular knowledge framework will be constructed with similar tiny
+pieces of information. A module of knowledge consists of many related knowledge
+and it can be leveraged in process of particular cogntive activities.
 
 <br> <br>
 
