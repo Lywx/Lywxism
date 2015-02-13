@@ -126,7 +126,7 @@ and life. So keep this thought in your brain:
 
 Running case of simple implementation of given mechanics.
 
-![Acutance Preview](media/files/Acutance Preview.png)
+![Acutance Preview](/media/files/2015/01/03/Acutance Preview.png)
 
 In upper left side is a list showing loaded modules of knowledge. In upper right
 side is a list showing triggered knowledge. The bottom displays the given
