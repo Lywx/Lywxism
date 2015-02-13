@@ -7,12 +7,15 @@ tags:
 - Domain Specific Language
 ---
 
-#### 1. Introduction
+<br> <br>
 
-People forget important things more often than they thought. On the concern of
-productivity, knowledge is gained from books, posts on Internet, thoughts and
-classes. Even we take notes, we may forget the essentialness of these tiny
-pieces of information in runtime of our cognitive activities.
+## 1. Introduction
+
+People forget important things more often than they thought. Knowledge is
+generally gained from books, posts on Internet, thoughts and classes. Even we
+take notes, we may forget the essentialness of these tiny pieces of information
+in runtime of our cognitive activities. In another word, **you probably will not
+use specific knowledge when you should.**
 
 I personally would forget things like "What is the current objective of this
 time span?", "What is the possible strategies to solve this math problem" or
@@ -27,7 +30,9 @@ your custom data or a simple Domain Specific Language using plain text. It is
 much easier to use it as a parser for your formatted knowledge than writing your
 own parser or lexer.
 
-#### 2. Domain Knowledge With A Customized Markdown
+<br> <br>
+
+## 2. Domain Knowledge With A Customized Markdown
 
 I choose to add my time tag after standard Markdown title. These time tags are
 used for scheduled retrieval in a schedule program that walk through these
@@ -49,7 +54,7 @@ Features Make Code Maintainable]:
 
 {% highlight markdown %}
 
-## What is Maintainability [00-60-00]
+## What is Maintainability [00:60:00]
 
 Roughly speaking, maintainability is inversely proportional to the amount of
 time it takes a developer to make a change and the risk that change will
@@ -63,8 +68,8 @@ you thought should take an hour ends up taking a week.
 
 {% endhighlight %}
 
-The only difference from standard Markdown is the ``[00-60-00]``, which
-indicates the repeativity of this piece of information. ``[00-60-00]`` means 0
+The only difference from standard Markdown is the ``[00:60:00]``, which
+indicates the repeativity of this piece of information. ``[00:60:00]`` means 0
 hours, 60 minutes and 0 seconds.
 
 Of course, this information is trivial for an experienced developer. But can you
@@ -74,7 +79,9 @@ These knowledge is linked with a bigger concept call mode. A mode consists of
 many related knowledge and it can be manually selected in runtime in cogntive
 activities.
 
-#### 3. Structured Schedule Information Parsing
+<br> <br>
+
+## 3. Structured Schedule Information Parsing
 
 And I want another type of data: schedule information. It looks like the
 following:
@@ -83,23 +90,25 @@ following:
 
 [Everyday AM 7:0:0]
 
-    COMMAND: You must trust yourself and must be able to stand up again. This is
+    Command: You must trust yourself and must be able to stand up again. This is
     the tried and proved way to clean up negative emotion!
 
-    MUSIC:   Stand Up Battle Formation Again!
+    Music:   Stand Up Battle Formation Again!
 
 [Everyday AM 7:0:0]
 
-    COMMAND: ...
+    Command: ...
 
-    MUSIC:   ...
+    Music:   ...
 
 {% endhighlight %}
 
 These command entries are supposed to be retrieved everyday on the specific
 time.
 
-#### 4. Notes
+<br> <br>
+
+## 4. Notes
 
 Maintaining a knowledge base is hard because all of your knowledge is somewhat
 contradicting with each other. You might need to constantly edit your definition
@@ -109,6 +118,18 @@ According to my personal experiment, it did have a positive effect on my work
 and life. So keep this thought in your brain:
 
 > True knowledge is retrievable runtime execution of actions and thought.
+
+<br> <br>
+
+## 5. Software Example
+
+Running case of simple implementation of given mechanics.
+
+![Acutance Preview](media/files/Acutance Preview.png)
+
+In upper left side is a list showing loaded modules of knowledge. In upper right
+side is a list showing triggered knowledge. The Bottom displays the given
+knowledge.
 
 [Sprache]: https://github.com/sprache/Sprache
 
