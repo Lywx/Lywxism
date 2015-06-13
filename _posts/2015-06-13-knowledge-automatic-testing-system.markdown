@@ -12,18 +12,22 @@ tags:
 
 ## 1. Introduction
 
-The previously introduced knowledge management is proved to be ineffective in
-terms of flexibility and effectivity. Even though as I later introduced audio
-narrative for the key sentence of the specific piece of knowledge entry, it is
-still incredibly cumbersome to use. At some extent, I believed it even
-harmfully introduces some overhead to an already task-overloaded mind. So the
-last project has failed through my trial.
+The previously introduced knowledge management system is proved to be
+ineffective in terms of flexibility and effectivity after months of experiments.
+Even though I later introduced audio narrative for the key sentence of the
+specific piece of knowledge entry, it is still incredibly cumbersome to use. It
+is like a degraded version of Google Now (without real useful data). Sometimes
+it is quite annoying to hear these irrelevant notification. At some extent, I
+believed it even harmfully introduces some overhead to an already
+task-overloaded mind. So I hereby concluded this project is a complete failure.
+I am not longer able to see any potential in it.
 
-Inspired by the TDD (Test Driven Development), based on which further idea like
-automatic testing and CTTD (Continuous test-driven development) are developed, I
-found these idea could be useful as a check-list like thinking tools.
-
-Since the fundamental practice in TDD is to ensure the tests passed.
-
+A week later, I felt inspired by the development workflow of TDD (Test Driven
+Development) and CTTD (Continuous Test-driven Development) immensely. I found
+these idea could be potentially useful as a automatic check-list like thinking
+tools. Since the fundamental practice in TDD is to ensure the tests passed
+over time. I could write tests using scriping languages and hook these tests
+with the audio notification system, which would be a very cheap and flexible
+design for a personal assistant software.
 
 TO BE CONTINUED ...
