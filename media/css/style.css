@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*------------------------------------
- * sext-vi
- *
- * @author linghua.zhang@me.com
- * @link http://lhzhang.com/
- * @update 2014-03-17
- *
- * |/ | (~ (~
- * |\.|._)._)
- * --------------------------------- */
+
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 * {
@@ -18,8 +9,8 @@
 body {
   font-size: 14px;
   font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #555;
-  background-color: #f9f9f9; }
+  color: #FEFEFE;
+  background-color: #1D2023; }
 
 ol, ul {
   list-style-position: inside; }
@@ -38,7 +29,7 @@ hr {
 
 ::selection {
   color: #fff;
-  background-color: #333; }
+  background-color: #05769E; }
 
 a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
   text-decoration: none;
@@ -47,7 +38,7 @@ a, header #header h1 a, article .title a, article .meta .tags a, article .divide
     color: #dd1144; }
 
 blockquote, pre code {
-  background-color: #f8f8f8;
+  background-color: #1D2023;
   padding: 0 1em;
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
@@ -56,8 +47,23 @@ blockquote, pre code {
   display: block;
   overflow: auto; }
 
+blockquote {
+  color: #66D9EF;
+  background-color: #1D2023;
+  border: 1px dashed #e0e0e0;
+  padding: 16px;
+  font-family: "Ubuntu", monospace; }
+
+pre {
+  color: #66D9EF;
+  background-color: #1D2023;
+  border: 1px dashed #e0e0e0;
+  padding: 16px;
+  font-family: "Ubuntu", monospace; }
+
 code {
-  background-color: #f8f8f8;
+  color: #66D9EF;
+  background-color: #1D2023;
   padding: 2px 5px;
   border: 1px dashed #e0e0e0;
   font-family: "Ubuntu", monospace; }
@@ -73,19 +79,24 @@ header {
   margin: 0 auto;
   text-align: justify;
   margin: 3em auto; }
+
   header:after {
     content: '';
     width: 100%;
     display: inline-block; }
+
   header #header {
     display: inline-block;
     position: relative;
     top: 1em; }
+
     header #header h1 {
       font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+
       header #header h1 a {
         color: #a9a9a9;
         display: block; }
+
   header nav {
     display: inline-block;
     position: relative;

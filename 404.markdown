@@ -3,7 +3,6 @@ title: An unexplored area
 layout: page
 ---
 
-You saw a hug blank ahead of you. Then, you wondered why you were here at the
-first place.
+You could track back this page if it did exist. Check out in my git repository.
 
 [Go Back](/index.html)

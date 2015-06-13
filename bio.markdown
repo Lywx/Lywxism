@@ -3,5 +3,6 @@ title: Bio
 layout: page
 ---
 
-Wuxiang Lin is a graduate student in UESTC, Chengdu, China. He is a very normal
-people actually.
+Wuxiang Lin is a graduate student in University of Electronic Science and
+Technology of China, Chengdu, China. Currently, he is studying toward a
+Master's degree in Computational Electromagnetism.
