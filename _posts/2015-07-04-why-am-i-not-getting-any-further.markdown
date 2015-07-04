@@ -32,6 +32,6 @@ my personal reach.
 
 Because of financial limitation, I felt especially limited (I felt I have very
 little confidence to give up something I am not very passionate about,
-especially in school. Even though I usually take much more risks on school
+especially in school, even though I usually take much more risks on school
 related things than my classmates). I reckon that if I get a lot of money, I
 will be freer (I believe that is true).
