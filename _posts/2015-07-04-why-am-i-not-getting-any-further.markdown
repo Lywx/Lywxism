@@ -22,7 +22,7 @@ comfort me substantially.
 
 <br> <br>
 
-## 2. Current Reasoning of Me
+## 2. Current Reasoning of Mine
 
 I think most of my disappointments are caused by the fact that the work I had
 done create zero value besides some technological achievement I felt inside
