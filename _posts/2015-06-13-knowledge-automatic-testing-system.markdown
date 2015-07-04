@@ -1,7 +1,7 @@
 ---
 title: Experimental Knowledge Automatic Testing System
 layout: post
-guid: urn:uuid:f1f1a21b-a50b-424c-9554-6e6382b6122a
+guid: urn:uuid:f1f1a21b-a50b-424c-9554-6e6382b6129a
 tags:
 - Automatic Testing
 - F# Scripting
@@ -29,5 +29,23 @@ tools. Since the fundamental practice in TDD is to ensure the tests passed
 over time. I could write tests using scriping languages and hook these tests
 with the audio notification system, which would be a very cheap and flexible
 design for a personal assistant software.
+
+## 2. Refinement of Ideas
+
+I implemeted the initial system but not satisfied with the result I got. The
+first testing system consists of a tree-view of tests. All tests are
+interactively updated and aided with well understood status notification.
+
+But it is hard for me to do any things quality-controllable to the test results.
+Tests are easy to write but hard to fix. I thought I need some process
+management tools that help me ensure some of effeciency. So, I prototyped a
+state machine based process management interface that loads F# scripts into the
+platform. The F# scripts use
+[Stateless][https://github.com/slashdotdash/stateless] to construct state
+machines based processes. With some interaction capability, it becomes very
+handy indeed. The basic use-case would be:
+
+> Test fails -> Process runs -> Process runs -> ... -> Test passed -> ... ->
+> Test failed
 
 TO BE CONTINUED ...
