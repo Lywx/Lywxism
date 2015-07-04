@@ -48,7 +48,7 @@ machines based processes. With some interaction capability, it becomes very
 handy indeed. The basic use-case would be:
 
 > Test fails -> Process runs -> Process runs -> ... -> Test passed -> ... ->
-> Test failed
+> Test fails -> ...
 
 <br> <br>
 
