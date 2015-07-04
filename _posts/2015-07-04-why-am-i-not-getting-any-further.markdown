@@ -10,7 +10,7 @@ tags:
 
 ## 1. Current Snapshot of Me
 
-It is a lot of dissatisfaction around the period of time in graduate school. I
+There is a lot of dissatisfaction around the period of time in graduate school. I
 have been working on verious things but I am quite unhappy about what I am
 working on. Now, I ask the question: why i am not getting any further with my
 work and personal life?
