@@ -30,6 +30,8 @@ over time. I could write tests using scriping languages and hook these tests
 with the audio notification system, which would be a very cheap and flexible
 design for a personal assistant software.
 
+<br> <br>
+
 ## 2. Refinement of Ideas
 
 I implemeted the initial system but not satisfied with the result I got. The
@@ -47,5 +49,7 @@ handy indeed. The basic use-case would be:
 
 > Test fails -> Process runs -> Process runs -> ... -> Test passed -> ... ->
 > Test failed
+
+<br> <br>
 
 TO BE CONTINUED ...

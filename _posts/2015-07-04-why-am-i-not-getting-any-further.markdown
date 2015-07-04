@@ -20,6 +20,8 @@ emotionality. I hope my study on logics and rational thinking may provide
 insights on the my future. I believe they did help but not these things won't
 comfort me substantially.
 
+<br> <br>
+
 ## 2. Current Reasoning of Me
 
 I think most of my disappointments are caused by the fact that the work I had
