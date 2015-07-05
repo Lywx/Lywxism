@@ -43,12 +43,12 @@ Tests are easy to write but hard to fix. I thought I need some process
 management tools that help me ensure some of effeciency. So, I prototyped a
 state machine based process management interface that loads F# scripts into the
 platform. The F# scripts use
-[Stateless][https://github.com/slashdotdash/stateless] to construct state
+[Stateless](https://github.com/slashdotdash/stateless) to construct state
 machines based processes. With some interaction capability, it becomes very
 handy indeed. The basic use-case would be:
 
-> Test fails -> Process runs -> Process runs -> ... -> Test passed -> ... ->
-> Test failed
+> Test fails -> Process runs -> Process runs -> ... -> Test passes -> ... ->
+> Test fails -> ...
 
 <br> <br>
 
