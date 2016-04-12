@@ -5,6 +5,10 @@ permalink: /about/
 public: true
 ---
 
-Welcome to this website!
+Wuxiang is a graduate student in UESTC (University of Electronic Science and Technology of China). He is currently studying Computational Electromagnetism in school.
 
-> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+[UESTC Chinese Site]: http://uestc.edu.cn/
+[UESTC English Site]: http://en.uestc.edu.cn/
+
+## Thanks
+This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
