@@ -9,14 +9,14 @@ description: >
 email: linwx_xin@hotmail.com
 author: Wuxiang Lin
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: Welcome to Wuxiang' homepage.
+profile: Chengdu, China
 #twitter_username: twitter_username
 github_username:  Lywx
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+disqus_shortname: lywx   # get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title
 gems:
