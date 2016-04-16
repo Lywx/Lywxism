@@ -10,7 +10,7 @@ tags:
 A few days ago, I received message from Game Department of
 [NetEase](http://game.163.com/), which told me my resume was passing through.
 Since I'd been working on game-related projects for some time (spanning 3 years
-now), it is the first time I get the formal external confirmation of my skills
+now). It is the first time I get the formal external confirmation of my skills
 and experience for game programming.
 
 I think it is happening.
