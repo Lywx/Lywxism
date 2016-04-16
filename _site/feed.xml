@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wuxiang Lin</title>
+    <description></description>
+    <link>http://lywx.github.io/</link>
+    <atom:link href="http://lywx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Apr 2016 09:37:35 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Apr 2016 09:37:35 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Planning To Enter Video Game Industry (Switching Careers)</title>
+        <description>&lt;p&gt;A few days ago, I received message from Game Department of
+&lt;a href=&quot;http://game.163.com/&quot;&gt;NetEase&lt;/a&gt;, which tells me my resume is passing through.
+Since I’d been working on game-related projects for some time (spanning 3 years
+now), it is the first time I get the formal external confirmation of my skills
+and experience for game programming.&lt;/p&gt;
+
+&lt;p&gt;I think it is happening.&lt;/p&gt;
+
+&lt;p&gt;While I am still aware of deficiency of mine in some major Computer Science
+subject and I don’t have a major in Computer Science, that is not a huge
+obstacle for me now.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 16 Apr 2016 09:01:00 +0800</pubDate>
+        <link>http://lywx.github.io/archivers/planning-to-enter-video-game-industry</link>
+        <guid isPermaLink="true">http://lywx.github.io/archivers/planning-to-enter-video-game-industry</guid>
+        
+        <category>Personal</category>
+        
+        
+        <category>Personal</category>
+        
+      </item>
+    
+      <item>
+        <title>Experimental Knowledge Automatic Testing System</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;The previously introduced knowledge management system is proved to be
+ineffective in terms of flexibility and effectivity after months of experiments.
+Even though I later introduced audio narrative for the key sentence of the
+specific piece of knowledge entry, it is still incredibly cumbersome to use. It
+is like a degraded version of Google Now (without real useful data). Sometimes
+it is quite annoying to hear these irrelevant notification. At some extent, I
+believed it even harmfully introduces some overhead to an already
+task-overloaded mind. So I hereby concluded this project is a complete failure.
+I am not longer able to see any potential in it.&lt;/p&gt;
+
+&lt;p&gt;A week later, I felt inspired by the development workflow of TDD (Test Driven
+Development) and CTTD (Continuous Test-driven Development) immensely. I found
+these idea could be potentially useful as a automatic check-list like thinking
+tools. Since the fundamental practice in TDD is to ensure the tests passed
+over time. I could write tests using scriping languages and hook these tests
+with the audio notification system, which would be a very cheap and flexible
+design for a personal assistant software.&lt;/p&gt;
+
+&lt;h2 id=&quot;refinement&quot;&gt;2. Refinement&lt;/h2&gt;
+
+&lt;p&gt;I implemeted the initial system but not satisfied with the result I got. The
+first testing system consists of a tree-view of tests. All tests are
+interactively updated and aided with well understood status notification.&lt;/p&gt;
+
+&lt;p&gt;But it is hard for me to do any things quality-controllable to the test results.
+Tests are easy to write but hard to fix. I thought I need some process
+management tools that help me ensure some of effeciency. So, I prototyped a
+state machine based process management interface that loads F# scripts into the
+platform. The F# scripts use
+&lt;a href=&quot;https://github.com/slashdotdash/stateless&quot;&gt;Stateless&lt;/a&gt; to construct state
+machines based processes. With some interaction capability, it becomes very
+handy indeed. The basic use-case would be:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Test fails -&amp;gt; Process runs -&amp;gt; Process runs -&amp;gt; ... -&amp;gt; Test passes -&amp;gt; ... -&amp;gt; Test fails -&amp;gt; ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;to-be-continued-&quot;&gt;TO BE CONTINUED …&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 13 Jun 2015 08:00:00 +0800</pubDate>
+        <link>http://lywx.github.io/archivers/knowledge-automatic-testing-system</link>
+        <guid isPermaLink="true">http://lywx.github.io/archivers/knowledge-automatic-testing-system</guid>
+        
+        <category>Knowledge Management</category>
+        
+        
+        <category>Exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Experimental Knowledge Retrieval System</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;People forget important things more often than they would believe they actually
+did. Knowledge is generally gained from books, posts on Internet, thoughts and
+classes. Even we take notes, we may forget the essentialness of these tiny
+pieces of information in runtime of our cognitive activities. In another word,
+&lt;strong&gt;you probably will not use specific knowledge when you should.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I personally would forget things like “What is the current objective of this
+time span?”, “What is the possible strategies to solve this math problem” or
+“When to examine this piece of code that is becoming messy?”. I am not merely
+&lt;strong&gt;not remembering&lt;/strong&gt; things but I am &lt;strong&gt;not aware of&lt;/strong&gt; these piece of information.
+It is possible to construct a simple system that inform you in scheduled base
+that enforce practice of these knowledge or mind set that you thought is
+helpful.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sprache/Sprache&quot;&gt;Sprache&lt;/a&gt; is a Domain Specific Language parser in C# that is aim to construct
+your custom data or a simple Domain Specific Language using plain text. It is
+much easier to use it as a parser for your formatted knowledge than writing your
+own parser or lexer.&lt;/p&gt;
+
+&lt;h2 id=&quot;domain-knowledge-with-a-customized-markdown&quot;&gt;2. Domain Knowledge With A Customized Markdown&lt;/h2&gt;
+
+&lt;p&gt;I choose to add my time tag after standard Markdown title. These time tags are
+used for scheduled retrieval in a schedule program that walk through these
+linked file to construct a list of command entries. These command entries are
+retrieved in specific conditions according to time tags.&lt;/p&gt;
+
+&lt;p&gt;The format comes as the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Title of Knowledge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;[Time for Retrieval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;]&lt;span class=&quot;sb&quot;&gt;
+
+    [Content of Knowledge]
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is an example I construct from an answer in &lt;a href=&quot;http://programmers.what-characteristics-or-features-make-code-maintainable/questions/134855/what-characteristics-or-features-make-code-maintainable&quot;&gt;What Characteristics Or
+Features Make Code Maintainable&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    # What is Maintainability &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;00:60:00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
+
+    Roughly speaking, maintainability is inversely proportional to the amount of
+    time it takes a developer to make a change and the risk that change will
+    break something.
+
+    Improving readability, coupling, or consistency all contribute to
+    maintainability because it won&#39;t take as long to make any given change.
+
+    Maintainability is easier to recognize by its absence, like when something
+    you thought should take an hour ends up taking a week.
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The only difference from standard Markdown is the &lt;code class=&quot;highlighter-rouge&quot;&gt;[00:60:00]&lt;/code&gt;, which
+indicates the repeativity of this piece of information. &lt;code class=&quot;highlighter-rouge&quot;&gt;[00:60:00]&lt;/code&gt; means 0
+hours, 60 minutes and 0 seconds.&lt;/p&gt;
+
+&lt;p&gt;Of course, this information is trivial for an experienced developer. But can you
+recall it when you are upset on browsing your illy constructed code?&lt;/p&gt;
+
+&lt;p&gt;This piece of knowledge is linked with a bigger knowledge in a tree like manner.
+Gradually, a modular knowledge framework will be constructed with similar tiny
+pieces of information. A module of knowledge consists of many related knowledge
+and it can be leveraged in process of particular cogntive activities.&lt;/p&gt;
+
+&lt;h2 id=&quot;structured-schedule-information-parsing&quot;&gt;3. Structured Schedule Information Parsing&lt;/h2&gt;
+
+&lt;p&gt;And I want another type of data: schedule information. It looks like the
+following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Everyday AM 7:0:0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
+
+        Command: You must trust yourself and must be able to stand up again. This is
+        the tried and proved way to clean up negative emotion!
+
+        Music:   Stand Up Battle Formation Again!
+
+    [Everyday AM 7:0:0]
+
+        Command: ...
+
+        Music:   ...
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;These command entries are supposed to be retrieved everyday on the specific
+time.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;4. Notes&lt;/h2&gt;
+
+&lt;p&gt;Maintaining a knowledge base is hard because all of your knowledge is somewhat
+contradicting with each other. You might need to constantly edit your definition
+and notion of your personal best practice and retrieval strategies.&lt;/p&gt;
+
+&lt;p&gt;According to my personal experiment, it did have a positive effect on my work
+and life. So keep this thought in your brain:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;True knowledge is retrievable runtime execution of actions and thought.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;software-example&quot;&gt;5. Software Example&lt;/h2&gt;
+
+&lt;p&gt;Running case of simple implementation of given mechanics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/files/2015/01/03/Acutance Preview.png&quot; alt=&quot;Acutance Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In upper left side is a list showing loaded modules of knowledge. In upper right
+side is a list showing triggered knowledge. The bottom displays the given
+knowledge.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Jan 2015 08:00:00 +0800</pubDate>
+        <link>http://lywx.github.io/archivers/knowledge-retrieval-system</link>
+        <guid isPermaLink="true">http://lywx.github.io/archivers/knowledge-retrieval-system</guid>
+        
+        <category>Knowledge Management</category>
+        
+        
+        <category>Exploration</category>
+        
+      </item>
+    
+  </channel>
+</rss>
