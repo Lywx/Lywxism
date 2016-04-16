@@ -15,7 +15,7 @@ and experience for game programming.
 
 I think it is happening.
 
-While I am still aware of deficiency of mine in some major Computer Science
-subject and I don't have a major in Computer Science, that is not a huge
-obstacle for me now.
+While I am still aware of deficiency of mine in some Computer Science subjects
+and I don't have a major in Computer Science, that is not a huge obstacle for me
+now.
 
