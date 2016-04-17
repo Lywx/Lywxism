@@ -1,5 +1,5 @@
 ---
-title:      Experimental Knowledge Automatic Testing System
+title:      Idea ~ Experimental Knowledge Automatic Testing System
 layout:     post
 categories: Exploration
 date:       2015-06-13 00:00:00

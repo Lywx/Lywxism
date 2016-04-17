@@ -1,5 +1,5 @@
 ---
-title:      Planning To Enter Video Game Industry (Switching Careers)
+title:      Personal ~ Planning To Enter Video Game Industry (Switching Careers)
 layout:     post
 categories: Personal
 date:       2016-04-16 09:01

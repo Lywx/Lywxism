@@ -1,5 +1,5 @@
 ---
-title:      Experimental Knowledge Retrieval System
+title:      Idea ~ Experimental Knowledge Retrieval System
 layout:     post
 categories: Exploration
 date:       2015-01-03 00:00:00
