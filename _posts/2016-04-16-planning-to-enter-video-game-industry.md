@@ -1,5 +1,5 @@
 ---
-title:      2016-04-16 计划转行游戏行业
+title:      计划转行游戏行业
 layout:     post
 categories: Personal
 date:       2016-04-16 09:01

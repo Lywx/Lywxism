@@ -1,5 +1,5 @@
 ---
-title:      2018-10-03 时常需要提醒自己
+title:      时常需要提醒自己
 layout:     post
 categories: Personal
 date:       2018-10-03 23:55
