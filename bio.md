@@ -1,24 +1,16 @@
 ---
 layout: bio
-title: Bio
+title: 简述
 permalink: /bio/
 public: true
 nocomments: true
 ---
 
-Wuxiang Lin
+林武翔
 ===
 
-I grew up in Fuzhou, Fujian Province, China. I spent 4 years studying Microwave
-Engineering in [UESTC](http://uestc.edu.cn), Chengdu, China. By then, I was hoping to
-enter telecommunication industry. Along my study, I learned to appreciate the
-beauty of software. Eventually, I became a self-taught software engineer, and I
-am still in the stage of early-intermediate level.
+福州人, 2018 年初毕业于电子科技大学, 电子工程系. 在成都度过了 7 年时间, 和许多学习工科的同学一样, 
+曾经常年与物理方程打交道, 经过了漫长的努力后, 在研究生期间终于如愿转行成功. 现在就职于杭州的网易游戏, 开发移动游戏.
 
-Now I am a graduate student in UESTC. Currently, I am studying toward a Master's
-degree in Microwave Engineering, doing researches on Computational
-Electromagnetism. But I sincerely believe I won't enter the either field of
-telecommunication or academia of electromagnetism ...
-
-                                                                         Wuxiang
-                                                                     April, 2016
+                                                                           林武翔
+                                                                    2018 年 10 月
