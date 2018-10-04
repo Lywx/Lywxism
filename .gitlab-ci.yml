@@ -4,6 +4,7 @@ pages:
     stage: deploy
     script:
     - gem install jekyll
+    - gem install jekyll-gist
     - gem install jekyll-paginate
     - gem install jemoji 
     - jekyll build -d public/
