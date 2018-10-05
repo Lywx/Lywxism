@@ -7,9 +7,9 @@ pages:
     - gem install jekyll-gist
     - gem install jekyll-paginate
     - gem install jemoji 
-    - jekyll build -d public
+    - jekyll build -d _site
     artifacts:
         paths:
-        - public
+        - _site
     only:
     - master
