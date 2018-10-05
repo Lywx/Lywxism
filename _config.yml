@@ -41,4 +41,4 @@ deploy:
   type: git
   repo:
       github: ssh://git@github.com/lywx/lywx.github.io.git,master
-      coding: git@git.coding.net:lywx/lywx.gitlab.io.git,master
+      gitlab: ssh://git@gitlab.com/lywx/lywx.gitlab.io.git,master
