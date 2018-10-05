@@ -21,7 +21,7 @@ disqus_shortname: lywx   # get one: https://disqus.com/admin/signup/
 permalink: pretty
 post_dirs: false
 
-gems:
+plugins:
  - jekyll-paginate
  - jekyll-gist
  - jemoji
