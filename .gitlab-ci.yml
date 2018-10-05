@@ -4,9 +4,9 @@ pages:
     stage: deploy
     script:
     - gem install jekyll -v 3.8.4
-    # - gem install jekyll-gist
-    # - gem install jekyll-paginate
-    # - gem install jemoji 
+    - gem install jekyll-gist
+    - gem install jekyll-paginate
+    - gem install jemoji 
     - jekyll build -d public
     artifacts:
         paths:
