@@ -18,7 +18,9 @@ github_username:  Lywx
 disqus_shortname: lywx   # get one: https://disqus.com/admin/signup/
 # duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: pretty
+post_dirs: false
+
 gems:
  - jekyll-paginate
  - jekyll-gist
